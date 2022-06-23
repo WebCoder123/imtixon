@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans Condensed";
+}
+nav{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px;
+}
+nav ul li{
+    padding-left: 70px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #151414;
+}
+nav ul li:nth-child(8) a{
+    border: 1px solid;
+    padding: 15px;
+    color: #fff;
+    background: #C3002F;
+}
+main .a1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main .a1 .img img{
+    height: 550px;
+    width: 650px;
+}
+main .text{
+    padding-left: 100px;
+}
+main .text h2{
+    color: #C3002F;
+}
+main .text h1{
+    font-size: 50px;
+}
+main .text p{
+    font-size: 14px;
+}
+main .a2 ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+main .a2{
+    padding-left: 50px;
+}
+main .a2 ul li{
+    padding: 20px;
+    border: 1px solid;
+    padding-left: 70px;
+    padding-right: 120px;
+}
+main .a2 ul li:nth-child(2){
+    background: #C3002F;
+    color: #fff;
+}
+main .a2 ul li:nth-child(3){
+    background: #151414;
+    color: #fff;
+}
+main .a2 ul li:nth-child(4){
+    background: #151414;
+    color: #ffff;
+}
+main .a2 ul li:nth-child(5){
+    background: #151414;
+    color: #fff;
+}
+.part1 ul li h2{
+    padding: 5px;
+    margin-right: 100px;
+    color: #fff;
+    background: #C3002F;
+}
+.part1 ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 60px;
+}
+.part2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.part2 .b1{
+    padding-left: 100px;
+}
+.part2 .b1 h2{
+    color: #C3002F;
+}
+.part2 .b1 h1{
+    font-size: 50px;
+}
+.part2 .b1 a{
+    padding: 10px;
+    border: 1px solid #C3002F;
+    text-decoration: none;
+    color: #151414;
+}
+.part2 .b1 .a{
+    margin: 50px;
+}
+.part3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.part3 .b3 h1{
+    font-size: 40px;
+    font-weight: normal;
+}
+.part3 .b3 h3{
+    font-weight: normal;
+    font-size: 25px;
+}
+.part3 .a{
+    margin: 50px;
+}
+.a a{
+    padding: 10px;
+    border: 1px solid #C3002F;
+    text-decoration: none;
+    color: #151414;
+}
+.part4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.part4 img{
+    width: 500px;
+    height: 450px;
+}
+.part4 .b4{
+    padding-left: 100px;
+}
+.part4 .b4 h1{
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.input{
+    margin: 15px;
+}
+input{
+    padding: 10px;
+    padding-left: 50px;
+    border: 1px solid #C3002F;
+}
+.input a{
+    padding: 10px;
+    border: 1px solid #C3002F;
+    text-decoration: none;
+    color: #151414;
+}
+.part5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.part5 .b7{
+    padding-right: 200px;
+}
+.part5 .b7 h3{
+    color: #C3002F;
+}
+.part5 .a{
+    margin: 50px;
+    color: #151414;
+}
+.part6
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.part6 img{
+    width: 550px;
+    height: 450px;
+}
+.part6 .b8
+{
+    padding-left: 50px;
+}
+.part6 a{
+    background: #C3002F;
+    color: #fff;
+}
+.part7{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.part7 .c2{
+    padding-left: 50px;
+}
+.part7 .c2 h2{
+    color: #C3002F;
+}
+.part7 .c2 h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+.part7 .vektor{
+    padding-left: 50px;
+}
+.part8 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.part8 img{
+    width: 600px;
+    height: 600px;
+}
+
+.part8 .c4 h1{
+    padding: 15px;
+}
+.part8 .c4 a{
+    background: #C3002F;
+    color: #fff;
+}
+.part9 ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.part9{
+    padding: 30px;
+}
+.part9 h2{
+    color: #C3002F;
+}
+.part10{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.part10 a{
+    color: #fff;
+    background: #C3002F;
+}
+.karta img{
+    width: 1345px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #151414;
+    color: #fff;
+    line-height: 25px;
+}
+footer ul{
+    list-style: none;
+}
